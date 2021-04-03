@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="70dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginLeft="4dp"
+    android:layout_marginRight="4dp">
+
+
+<!--    <TextView-->
+<!--        android:id="@+id/tv_title"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Android Develoment"-->
+<!--        android:textSize="16sp"-->
+<!--        android:textColor="#FF333333"-->
+<!--        android:layout_toRightOf="@id/cv"-->
+<!--        android:layout_marginLeft="12dp"-->
+<!--        android:layout_marginTop="8dp"-->
+<!--        android:maxLines="1"/>-->
+    <TextView
+        android:id="@+id/tv_msg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="안드로이드 앱을 만들어 줍니다."
+        android:textSize="12dp"
+        android:textColor="#FF333333"
+        android:layout_centerVertical="true"
+        android:maxLines="2"/>
+
+
+    <!-- 구분선 그리기  -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#FFDDDDDD"
+        android:layout_alignParentBottom="true"/>
+
+</RelativeLayout>
